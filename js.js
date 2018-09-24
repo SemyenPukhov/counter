@@ -31,5 +31,5 @@ function writeResult(type) {
 
 function setAnimation(node) {
     var img = node.firstChild.style.animationName = "pulse";
-    setTimeout(function(){node.firstChild.style.animationName = "none";}, 1500);
+    setTimeout(function(){node.firstChild.style.animationName = "none";}, 100);
 }
