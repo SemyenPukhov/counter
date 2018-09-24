@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter++</title>
+    <style>
+        #counter {
+            background: #aaa;
+            display: flex;
+            text-align: center;
+            margin-top: 30vh;
+        }
+
+        #minus {
+            width: 33%;
+            height: auto;
+            background: greenyellow;
+        }
+
+        #plus {
+            width: 33%;
+            height: auto;
+            background: red;
+        }
+
+        #total {
+            font-size: 126px;
+            margin: auto;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+            animation-duration: 0.5s;
+        }
+
+        @keyframes pulse {
+            50% {
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="counter">
+        <div id="minus"><img src="minus-512.png" style="width: 239px; height: 239px"></div>
+        <div id="total">0</div>
+        <div id="plus"><img src="plus.png" style="width: 239px; height: 239px"></div>
+        <script src="js.js"></script>
+    </div>
+</body>
+</html>
